@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/newbackground"
+    tools:context=".MainActivity">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:id="@+id/imgView1"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/dicee_logo"
+        android:contentDescription="Main"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:id="@+id/imgView"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/dice1"
+        android:contentDescription="Main"/>
+    <Button
+        android:id="@+id/btnRoll"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Roll Dice"
+        android:textSize="20sp"
+        android:textColor="#990909"
+        android:background="#a0a00f"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/imgView"/>
+
+
+</RelativeLayout>
